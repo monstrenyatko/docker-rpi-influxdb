@@ -4,13 +4,9 @@ services:
     image: monstrenyatko/rpi-influxdb
     container_name: influxdb
     volumes:
-      - influxdb-config:/config:ro
-      - influxdb-data:/data
+      - influxdb-data:/var/lib/influxdb:rw
     ports:
       - "8086:8086"
     restart: unless-stopped
 volumes:
-  influxdb-config:
-    external: true
   influxdb-data:
-    external: true
