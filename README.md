@@ -1,5 +1,5 @@
-# InfluxDB Docker image for Raspberry Pi
-========================================
+InfluxDB Docker image for Raspberry Pi
+======================================
 
 [![Build Status](https://travis-ci.org/monstrenyatko/docker-rpi-influxdb.svg?branch=master)](https://travis-ci.org/monstrenyatko/docker-rpi-influxdb)
 
